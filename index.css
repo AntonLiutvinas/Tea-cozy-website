@@ -1,0 +1,183 @@
+/* General styles */
+p, a, h2, h4, h3, h5 {
+	opacity: 0.9;
+	color: seashell;
+	font-family: Helvetica;
+	text-align: center;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 23px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+body {
+	background-color: black;
+	margin: 0;
+}
+
+/* Header */
+
+header {
+	width: 100%;
+	height: 69px;
+	position: fixed;
+	border-bottom: 1px solid seashell;
+	z-index: 2;
+	background-color: black;
+}
+
+.title {
+	width: 49%;
+	height: 100%;
+	display: inline-flex;
+	align-items: center;
+}
+
+.title img {
+	height: 50px;
+	margin-left: 10px;
+}
+
+.links {
+	height: 100%;
+	width: 49%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: flex-end;	
+	float: right;
+}
+
+.links p, .links a {
+	float: right;
+	text-decoration: underline;
+	font-size: 22px;
+	margin: 5px;
+}
+
+.main {
+	position: relative;
+	top: 70px;
+}
+
+/* Mission */
+
+#mission {
+	height: 700px;
+	width: 1200px;
+	background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text {
+	background-color: black;
+	width: 100%;
+	height: 115px;
+}
+
+.text h2 {
+	margin: 10px 0 0 0;
+}
+
+.text h4 {
+	margin: 20px 0 0 0;
+}
+
+/* Featured tea */
+
+#featured-tea {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#featured-tea h4 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#featured-tea h2 {
+	margin-bottom: 0;
+}
+
+.flexb {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	margin: 0 auto;
+}
+
+.flexb img {
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+}
+
+.teashow2 {
+	margin-left: 16%;
+}
+
+/* Locations */
+
+#locations {
+	height: 500px;
+	width: 1200px;
+	background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 45px auto 0 auto;
+	padding-top: 70px;
+}
+
+#locations h2 {
+	margin: 0;
+}
+
+.flexi {
+	display: flex;
+	justify-content: center;
+}
+
+.flexi div {
+	background-color: black;
+	width: 300px;
+	margin: 20px;
+}
+
+.flexi p {
+	font-size: 25px;
+}
+
+/* Info */
+
+.info {
+	height: 200px;
+	width: 100%;
+	margin-bottom: 75px;
+}
+
+/* Footer */
+
+footer {
+	width: 100%;
+}
+
+footer h5 {
+	text-align: left;
+	margin-left: 20px;
+}
